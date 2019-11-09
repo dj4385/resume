@@ -1,0 +1,9 @@
+.bgImg{
+    background: url(../assets/images/spiderman.jpg) no-repeat center;
+    background-color: transparent;
+}
+.profile{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;    
+}
