@@ -1,9 +1,13 @@
 .bgImg{
-    background: url(../assets/images/spiderman.jpg) no-repeat center;
-    background-color: transparent;
+    background: linear-gradient(to right, #aa076b, #61045f)
 }
 .profile{
     border-radius: 50%;
-    height: 250px;
-    width: 250px;    
+    height: 200px;
+    width: 200px;    
+}
+.name{
+    font-size: 4.0 rem;
+    color: white;
+    font-weight: 700;
 }

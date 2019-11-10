@@ -1,8 +1,13 @@
 import React from 'react'
 import './About.css'
-import SpiderMan from '../assets/images/spiderman.jpg'
+import dheeraj from '../assets/images/dheeraj.png'
 
 export const About = ()=>{
+    var name = "Dheeraj Sharma",
+        dob = "24-June-1994",
+        location = "Delhi, India",
+        email = "dheeraj2406@outlook.com"
+
     return (
         <div className="container-fluid p-5 bg-primary">
             <div className="row">
@@ -12,19 +17,23 @@ export const About = ()=>{
             </div>
             <div className="row mr-5 ml-5 mt-5">
                 <div className="col-lg-3">
-                    <img src={SpiderMan} alt="" className="img-fluid profile"></img>
+                    <img src={dheeraj} alt="" className="img-fluid profile"></img>
                 </div>
-                <div className="col-lg-9 p-5 border border-dark">
+                <div className="col-lg-9 p-5">
                     <h3>Hello,</h3>
-                    <p>I am Bako Doe, web developer from London, United Kingdom. I have rich experience in web site design and building and customization, also I am good at wordpress.</p>
+                    <p>I am {name}, web developer from {location}. I have rich experience in web development design and building and customization, also I am good at Angular, Reactjs, Nodejs, Express and MonogDB.</p>
                     <div className="row">
-                        <div className="col-lg-6">Name</div>
-                        <div className="col-lg-6">DOB</div>
-                        <div className="col-lg-6">Location</div>
-                        <div className="col-lg-6">Email</div>
+                        <div className="col-lg-6"><p> <span className="fa fa-user-circle-o"></span>  Name: {name}</p></div>
+                        <div className="col-lg-6"><p> <span className="fa fa-calendar"></span> DOB: {dob}</p> </div>
+                        <div className="col-lg-6"><p> <span className="fa fa-map-marker"></span> Location: {location} </p></div>
+                        <div className="col-lg-6"><p> <span className="fa fa-envelope"></span> Email: {email} </p> </div>
                         <div className="mt-4 ml-3">
-                            <input type="button" value="Download CV" className="btn btn-outline-dark mr-3"></input>
-                            <input type="button" value="Hire Me" className="btn btn-outline-danger"></input>
+                            <button type="button" className="btn btn-outline-dark mr-3">
+                                <span className="fa fa-download"></span> Download CV
+                            </button>
+                            <button type="button" className="btn btn-outline-danger">
+                                <span className="fa fa-envelope-o"></span> Hire Me
+                            </button>
                         </div>
                     </div>
                 </div>
