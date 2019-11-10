@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Skills = ()=>{
     return (
-        <div className="container-fluid bg-warning p-5">
+        <div className="container-fluid bg-dark p-5">
             <h1 className="abtMe">Skills</h1>
             <div className="row">
                 <div className="col-lg-12 mt-4 p-5 eduBg">

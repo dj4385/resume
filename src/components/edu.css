@@ -1,0 +1,7 @@
+.eduBgImg{
+    background: url('../assets/images/edu.jpg') no-repeat center;
+    background-size: cover;
+}
+.cardShadow{
+    box-shadow: 4px 4px 0px 0px #0000006b;
+}
