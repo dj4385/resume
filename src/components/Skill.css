@@ -1,0 +1,35 @@
+.ngprogressbar{
+    width: 70%;
+}
+.reactprogressbar{
+    width: 30%;
+}
+.nodeprogressbar{
+    width: 50%;
+}
+.expressprogressbar{
+    width: 65%;
+}
+.mongoprogressbar{
+    width: 50%;
+}
+.jsprogressbar{
+    width: 60%;
+}
+.jQueryprogressbar{
+    width: 50%;
+}
+.htmlprogressbar{
+    width: 80%;
+}
+.cssprogressbar{
+    width: 70%;
+}
+.bootstrapprogressbar{
+    width: 80%;
+}
+
+.skillIcon{
+    width: 100px;
+    box-shadow: 2px 2px darkgray;
+}
