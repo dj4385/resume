@@ -37,7 +37,7 @@ export const Education = ()=>{
                         <div className="col-lg-3">
                             <div className="card cardShadow">
                                 <div className="card-header">
-                                    <b>Schooling</b>
+                                    <b>Senior Secondary Schooling</b>
                                 </div>
                                 <div className="card-body">
                                     <p><b> <span className="fa fa-building-o "></span> Board:</b> Central Board of Secondary Education (CBSE)</p>
