@@ -1,0 +1,10 @@
+.socialLink{
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: -35px;
+    margin-top: -25px;
+}
+.socialLink>li{
+    margin: 5px;
+    padding: 2px
+}
