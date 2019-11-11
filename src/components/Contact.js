@@ -4,13 +4,13 @@ import './contact.css'
 export const Contact = ()=>{
     return(
 
-        <div className="container-fluid bg-success p-5">
-            <h1 className="abtMe">My Contact Details</h1>
+        <div className="container-fluid p-5 contactBg">
+            <h1 className="abtMe text-white">My Contact Details</h1>
             <div className="row">
-                <div className="col-lg-12 mt-4 p-5">
+                <div className="col-lg-12 mt-3 p-5">
                     <div className="row">
                         <div className="col-lg-12">
-                            <div className="card p-5">
+                            <div className="card cardBg p-5">
                                 <p><b>Email:</b> <br /> &nbsp;&nbsp;&nbsp;&nbsp; <span className="fa fa-envelope-o"></span> dheeraj2406@outlook.com</p>
                                 <p><b>Phone :</b> <br /> &nbsp;&nbsp;&nbsp;&nbsp; <span className="fa fa-phone"></span> +91 8745006149</p>
                                 <p><b>Address:</b> <br /> &nbsp;&nbsp;&nbsp;&nbsp; <span className="fa fa-map-marker"></span>  New Delhi, India</p>

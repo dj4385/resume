@@ -24,7 +24,7 @@ export const Skills = ()=>{
                                         <img src={angular} alt="" className="img-fluid skillIcon" />
                                     </div>
                                     <div className="col-lg-10">
-                                        <p className="pt-3"><b>Angular 6 and 7</b></p>
+                                        <p ><b>Angular 6 and 7</b></p>
                                         <span className="progress-bar bg-danger progress-bar-striped ngprogressbar">Angular 6</span>
                                     </div>
                                 </div>
@@ -37,7 +37,7 @@ export const Skills = ()=>{
                                         <img src={angular} alt="" className="img-fluid skillIcon" />
                                     </div>
                                     <div className="col-lg-10">
-                                        <p className="pt-3"><b>Reactjs </b> </p>
+                                        <p ><b>Reactjs </b> </p>
                                         <span className="progress-bar bg-primary progress-bar-striped reactprogressbar">Reactjs</span>
                                     </div>
                                 </div>
@@ -57,7 +57,7 @@ export const Skills = ()=>{
                                         <img src={node} alt="" className="img-fluid skillIcon" />
                                     </div>
                                     <div className="col-lg-10">
-                                        <p className="pt-3"><b>Nodejs</b></p>
+                                        <p ><b>Nodejs</b></p>
                                         <span className="progress-bar bg-dark progress-bar-striped nodeprogressbar">Nodejs</span>
                                     </div>
                                 </div>
@@ -70,7 +70,7 @@ export const Skills = ()=>{
                                         <img src={express} alt="" className="img-fluid skillIcon" />
                                     </div>
                                     <div className="col-lg-10">
-                                        <p className="pt-3"><b>Expressjs </b> </p>
+                                        <p ><b>Expressjs </b> </p>
                                         <span className="progress-bar bg-secondary mt-2 progress-bar-striped expressprogressbar">Express</span>
                                     </div>
                                 </div>
@@ -89,7 +89,7 @@ export const Skills = ()=>{
                                         <img src={mongo} alt="" className="img-fluid skillIcon" />
                                     </div>
                                     <div className="col-lg-10">
-                                        <p className="pt-3"><b>MongoDB </b> </p>
+                                        <p ><b>MongoDB </b> </p>
                                         <span className="progress-bar bg-success progress-bar-striped mongoprogressbar">MongoDB</span>
                                     </div>
                                 </div>
@@ -103,7 +103,7 @@ export const Skills = ()=>{
                                         <img src={js} alt="" className="img-fluid skillIcon" />
                                     </div>
                                     <div className="col-lg-10">
-                                        <p className="pt-3"><b>JavaScript </b> </p>
+                                        <p ><b>JavaScript </b> </p>
                                         <span className="progress-bar bg-warning progress-bar-striped jsprogressbar">JavaScript</span>
                                     </div>
                                 </div>    
@@ -122,7 +122,7 @@ export const Skills = ()=>{
                                         <img src={angular} alt="" className="img-fluid skillIcon" />
                                     </div>
                                     <div className="col-lg-10">
-                                        <p className="pt-3"><b>jQuery</b></p>
+                                        <p ><b>jQuery</b></p>
                                         <span className="progress-bar bg-danger progress-bar-striped jQueryprogressbar">jQuery</span>
                                     </div>
                                 </div>
@@ -135,7 +135,7 @@ export const Skills = ()=>{
                                         <img src={bs4} alt="" className="img-fluid skillIcon" />
                                     </div>
                                     <div className="col-lg-10">
-                                        <p className="pt-3"><b>Bootstrap 3 and 4 </b> </p>
+                                        <p ><b>Bootstrap 3 and 4 </b> </p>
                                         <span className="progress-bar bg-success progress-bar-striped bootstrapprogressbar">Bootstrap</span>
                                     </div>
                                 </div>
@@ -155,7 +155,7 @@ export const Skills = ()=>{
                                         <img src={html} alt="" className="img-fluid skillIcon" />
                                     </div>
                                     <div className="col-lg-10">
-                                        <p className="pt-3"><b>HTML</b> </p>
+                                        <p ><b>HTML</b> </p>
                                         <span className="progress-bar bg-dark progress-bar-striped htmlprogressbar">HTML</span>
                                     </div>
                                 </div>  
@@ -168,7 +168,7 @@ export const Skills = ()=>{
                                         <img src={css} alt="" className="img-fluid skillIcon" />
                                     </div>
                                     <div className="col-lg-10">
-                                        <p className="pt-3"><b>CSS 3 </b> </p>
+                                        <p ><b>CSS 3 </b> </p>
                                         <span className="progress-bar bg-warning progress-bar-striped cssprogressbar">CSS 3</span>
                                     </div>
                                 </div>  

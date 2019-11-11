@@ -8,3 +8,10 @@
     margin: 5px;
     padding: 2px
 }
+.contactBg{
+    background: url('../assets//images/contact.jpg') no-repeat center;
+}
+.cardBg{
+    background: #00000087;
+    color: white
+}
