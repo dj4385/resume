@@ -11,15 +11,29 @@
 .profile{
     border-radius: 50%;
     height: 200px;
-    width: 200px;    
+    width: 200px;
 }
 .name{
     font-size: 4.0 rem;
     color: black;
     font-weight: 700;
 }
+.subHeading{
+    background: #00000085;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+/* .heading{
+    background: #00000033;
+} */
 
 /* About component css */
+
+.Abtbg{
+    background: #ee9ca7;
+}
 
 .abtMe:after{
     content: "";
@@ -33,6 +47,10 @@
 .eduBg{
     background: #ff5959;
     border-radius: 5px;
+}
+.abtImg{
+    height: 380px;
+    width: 400px;
 }
 
 /* Education component  */

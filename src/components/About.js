@@ -9,17 +9,17 @@ export const About = ()=>{
         email = "dheeraj2406@outlook.com"
 
     return (
-        <div className="container-fluid p-5 bg-primary">
+        <div className="container-fluid p-5 Abtbg">
             <div className="row">
                 <div className="col-lg-12 text-left">
                     <h1 className="abtMe">About Me</h1>
                 </div>
             </div>
-            <div className="row mr-5 ml-5 mt-5">
-                <div className="col-lg-3">
-                    <img src={dheeraj} alt="" className="img-fluid profile"></img>
+            <div className="row p-5 mr-5 ml-5 mt-5">
+                <div className="col-lg-4">
+                    <img src={dheeraj} alt="" className="img-fluid abtImg"></img>
                 </div>
-                <div className="col-lg-9 p-5">
+                <div className="col-lg-8 p-5">
                     <h3>Hello,</h3>
                     <p>I am {name}, web developer from {location}. I have rich experience in web development design and building and customization, also I am good at Angular, Reactjs, Nodejs, Express and MonogDB.</p>
                     <div className="row">
