@@ -1,0 +1,126 @@
+/* Home component css */
+
+.bgImg{
+    background: url('../images/frontImg.jpg') no-repeat center;
+    /* background: linear-gradient(to right, #aa076b, #61045f) */
+}
+.profile{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;    
+}
+.name{
+    font-size: 4.0 rem;
+    color: black;
+    font-weight: 700;
+}
+
+/* About component css */
+
+.abtMe:after{
+    content: "";
+    background: #ff5959;
+    border-radius: 25px;
+    display: block;
+    height: 5px;
+    margin-top: 4px;
+    width: 30px;
+}
+.eduBg{
+    background: #ff5959;
+    border-radius: 5px;
+}
+
+/* Education component  */
+.eduBgImg{
+    background: url('../images/edu.jpg') no-repeat center;
+    background-size: cover;
+}
+.cardShadow{
+    box-shadow: 4px 4px 0px 0px #0000006b;
+}
+
+/* skills component  */
+.ngprogressbar{
+    width: 70%;
+}
+.reactprogressbar{
+    width: 30%;
+}
+.nodeprogressbar{
+    width: 50%;
+}
+.expressprogressbar{
+    width: 65%;
+}
+.mongoprogressbar{
+    width: 50%;
+}
+.jsprogressbar{
+    width: 60%;
+}
+.jQueryprogressbar{
+    width: 50%;
+}
+.htmlprogressbar{
+    width: 80%;
+}
+.cssprogressbar{
+    width: 70%;
+}
+.bootstrapprogressbar{
+    width: 80%;
+}
+
+.skillIcon{
+    width: 100px;
+    
+}
+.boxShadow{
+    box-shadow: 5px 6px #000000;
+}
+.skillBg{
+    background: url('../images/skillImg.jpg') no-repeat center;
+}
+
+/* experience component  */
+
+.expBg{
+    background: url('../images/experience.png') no-repeat left;
+}
+.ExpcardBg{
+    background: #0000000d;
+    color: white;
+    box-shadow: 4px 4px #00000042;
+}
+
+/* recent projects */
+
+
+
+/* contact component */
+
+.socialLink{
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: -35px;
+    margin-top: -25px;
+    
+}
+
+.socialLink>li{
+    margin: 5px;
+    padding: 2px;
+    opacity: 0.3;
+}
+.socialLink>li:hover{
+    opacity: 1;
+}
+
+.contactBg{
+    background: url('../images/contact.jpg') no-repeat center;
+}
+.cardBg{
+    background: #00000087;
+    color: white
+}

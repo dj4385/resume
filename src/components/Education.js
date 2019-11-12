@@ -1,5 +1,5 @@
 import React from 'react'
-import './edu.css';
+import '../assets/css/style.css'
 
 export const Education = ()=>{
     return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import './Skill.css'
+import '../assets/css/style.css'
 import angular from '../assets/images/angular.png'
 import express from '../assets/images/express.png'
 import node from '../assets/images/node.png'

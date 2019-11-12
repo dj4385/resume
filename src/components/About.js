@@ -1,5 +1,5 @@
 import React from 'react'
-import './About.css'
+import '../assets/css/style.css'
 import dheeraj from '../assets/images/dheeraj.png'
 
 export const About = ()=>{
