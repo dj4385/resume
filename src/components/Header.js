@@ -4,11 +4,11 @@ export const Header = ()=>{
     return (
         <div>
             <nav className="navbar navbar-expand-md fixed-top bg-dark navbar-dark">
-                <a className="navbar-brand" href="#">Navbar</a>
+                <a className="navbar-brand" href="#">Web Developer</a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse" id="collapsibleNavbar">
+                <div className="collapse d-flex justify-content-end navbar-collapse" id="collapsibleNavbar">
                     <ul className="navbar-nav">
                         <li className="nav-item">
                             <a className="nav-link" href="#">Home</a>
