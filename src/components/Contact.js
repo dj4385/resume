@@ -7,7 +7,7 @@ export const Contact = ()=>{
         <div className="container-fluid p-5 contactBg">
             <h1 className="abtMe text-white">My Contact Details</h1>
             <div className="row">
-                <div className="col-lg-12 mt-3 p-5">
+                <div className="col-lg-12 mt-3 pl-5 pr-5 pb-5">
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="card cardBg p-5">
