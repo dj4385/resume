@@ -31,5 +31,11 @@
 
 .skillIcon{
     width: 100px;
-    box-shadow: 2px 2px darkgray;
+    
+}
+.boxShadow{
+    box-shadow: 5px 6px #000000;
+}
+.skillBg{
+    background: url('../assets/images/skillImg.jpg') no-repeat center;
 }

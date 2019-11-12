@@ -12,13 +12,13 @@ import css from '../assets/images/css.jpg'
 
 export const Skills = ()=>{
     return (
-        <div className="container-fluid bg-dark p-5">
+        <div className="container-fluid skillBg p-5">
             <h1 className="text-white abtMe">Skills</h1>
             <div className="row">
                 <div className="col-lg-12 mt-4 pt-4 pl-5 pr-5">
                     <div className="row">
                         <div className="col-lg-6">
-                            <div className="card p-3">
+                            <div className="card boxShadow p-3">
                                 <div className="row">
                                     <div className="col-lg-2">
                                         <img src={angular} alt="" className="img-fluid skillIcon" />
@@ -31,7 +31,7 @@ export const Skills = ()=>{
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className="card p-3">
+                            <div className="card boxShadow p-3">
                                 <div className="row">
                                     <div className="col-lg-2">
                                         <img src={angular} alt="" className="img-fluid skillIcon" />
@@ -51,7 +51,7 @@ export const Skills = ()=>{
                 <div className="col-lg-12 pt-4 pl-5 pr-5">
                     <div className="row">
                         <div className="col-lg-6">
-                            <div className="card p-3">
+                            <div className="card boxShadow p-3">
                                 <div className="row">
                                     <div className="col-lg-2">
                                         <img src={node} alt="" className="img-fluid skillIcon" />
@@ -64,7 +64,7 @@ export const Skills = ()=>{
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className="card p-3">
+                            <div className="card boxShadow p-3">
                                 <div className="row">
                                     <div className="col-lg-2">
                                         <img src={express} alt="" className="img-fluid skillIcon" />
@@ -83,7 +83,7 @@ export const Skills = ()=>{
                 <div className="col-lg-12 pt-4 pl-5 pr-5">
                     <div className="row">
                         <div className="col-lg-6">
-                            <div className="card p-3">
+                            <div className="card boxShadow p-3">
                                 <div className="row">
                                     <div className="col-lg-2">
                                         <img src={mongo} alt="" className="img-fluid skillIcon" />
@@ -97,7 +97,7 @@ export const Skills = ()=>{
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className="card p-3">
+                            <div className="card boxShadow p-3">
                                 <div className="row">
                                     <div className="col-lg-2">
                                         <img src={js} alt="" className="img-fluid skillIcon" />
@@ -116,7 +116,7 @@ export const Skills = ()=>{
                 <div className="col-lg-12 pt-4 pl-5 pr-5">
                     <div className="row">
                         <div className="col-lg-6">
-                            <div className="card p-3">
+                            <div className="card boxShadow p-3">
                                 <div className="row">
                                     <div className="col-lg-2">
                                         <img src={angular} alt="" className="img-fluid skillIcon" />
@@ -129,7 +129,7 @@ export const Skills = ()=>{
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className="card p-3">
+                            <div className="card boxShadow p-3">
                                 <div className="row">
                                     <div className="col-lg-2">
                                         <img src={bs4} alt="" className="img-fluid skillIcon" />
@@ -149,7 +149,7 @@ export const Skills = ()=>{
                 <div className="col-lg-12 pt-4 pl-5 pr-5 pb-5 mb-5">
                     <div className="row">
                         <div className="col-lg-6">
-                            <div className="card p-3">
+                            <div className="card boxShadow p-3">
                                 <div className="row">
                                     <div className="col-lg-2">
                                         <img src={html} alt="" className="img-fluid skillIcon" />
@@ -162,7 +162,7 @@ export const Skills = ()=>{
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className="card p-3">
+                            <div className="card boxShadow p-3">
                                 <div className="row">
                                     <div className="col-lg-2">
                                         <img src={css} alt="" className="img-fluid skillIcon" />
