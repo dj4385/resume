@@ -6,8 +6,8 @@ import node from '../assets/images/node.png'
 import mongo from '../assets/images/mongo.png'
 import js from '../assets/images/js.png'
 import bs4 from '../assets/images/bootstrap.jpg'
-import html from '../assets/images/html1.jpg'
-import css from '../assets/images/css.jpg'
+import html from '../assets/images/html1.png'
+import css from '../assets/images/css.png'
 
 
 export const Skills = ()=>{
