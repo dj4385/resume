@@ -11,7 +11,7 @@ export const Home = ()=>{
                    <div className=" p-5">
                         <img src={dheeraj} alt="" className="img-fluid mb-2 profile"></img>
                         <h1 className="name">I am Dheeraj Sharma</h1> 
-                        <p className="subHeading">He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+                        <p className="subHeading">I am a web developer and programmer living in Delhi, India. I make web applications, usually with Node.js, Express, MongoDB and (Angular 7 and Reactjs)</p>
                         <div className="row">
                             <div className="col-lg-12">
                                 <a href={Skills} className="btn btn-primary mr-3 text-white">
