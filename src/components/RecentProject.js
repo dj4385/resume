@@ -16,7 +16,7 @@ export const RecentProject = ()=>{
                                 <img src={project1} className="img-fluid imgText" alt="" />
                                 <div className="text text-center">
                                     <h4>My Health Scroll</h4>
-                                    <button className="btn btn-primary">View</button>
+                                    <a href="http://myprofile.myhealthscroll.com/login" target="_blank" rel="noopener noreferrer" className="btn btn-primary">View</a>
                                 </div>
                             </div>
                         </div>
@@ -25,7 +25,7 @@ export const RecentProject = ()=>{
                                 <img src={project2} className="img-fluid imgText" alt="" />
                                 <div className="text text-center">
                                     <h4>Niscaya Solutions</h4>
-                                    <button className="btn btn-primary">View</button>
+                                    <a href="https://www.niscayasolutions.in/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">View</a>
                                 </div>
                             </div>
                         </div>
@@ -34,7 +34,7 @@ export const RecentProject = ()=>{
                                 <img src={project3} className="img-fluid imgText" alt="" />
                                 <div className="text">
                                     <h4 className="text-center">Gym Management</h4>
-                                    <button className="btn btn-primary">View</button>
+                                    <a href="https://gymuiv1.herokuapp.com/" target="_blank"  rel="noopener noreferrer" className="btn btn-primary">View</a>
                                 </div>
                             </div>
                         </div>
