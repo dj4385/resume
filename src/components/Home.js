@@ -7,8 +7,8 @@ export const Home = ()=>{
     return (
         <div className="container-fluid p-5 bgImg" id="home">
             <div className="row pt-5 pb-5">
-                <div className="col-lg-12 p-5 text-center">
-                   <div className=" p-5">
+                <div className="col-lg-12 text-center">
+                   <div>
                         <img src={dheeraj} alt="" className="img-fluid mb-2 profile"></img>
                         <h1 className="name">I am Dheeraj Sharma</h1> 
                         <p className="subHeading">I am a web developer and programmer living in Delhi, India. I make web applications, usually with Node.js, Express, MongoDB and (Angular 7 and Reactjs)</p>

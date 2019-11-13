@@ -16,11 +16,11 @@ export const About = ()=>{
                     <h1 className="text-white abtMe">About Me</h1>
                 </div>
             </div>
-            <div className="row abtTextBg p-5 mr-5 ml-5 mt-5">
+            <div className="row abtTextBg p-2">
                 <div className="col-lg-4">
                     <img src={dheeraj} alt="" className="img-fluid abtImg"></img>
                 </div>
-                <div className="col-lg-8 p-5">
+                <div className="col-lg-8 p-2">
                     <h3>Hello,</h3>
                     <p>I am {name}, web developer from {location}. I have rich experience in the web development design and building and customization, also I am good at Angular, Reactjs, Nodejs, Express, and MongoDB. I primarily use JavaScript Frameworks like Nodejs, Express, MongoDB, Angular 2+ and Reactjs, but picking up a new framework or language isn't a problem. I have extensive programming experience and I'm comfortable developing on frontend and backend.</p>
                     <div className="row">
