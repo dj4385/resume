@@ -1,6 +1,7 @@
 import React from 'react'
 import '../assets/css/style.css'
 import dheeraj from '../assets/images/dheeraj.png'
+import resume from '../assets/docs/Dheeraj_Resume.pdf'
 
 export const About = ()=>{
     var name = "Dheeraj Sharma",
@@ -28,12 +29,12 @@ export const About = ()=>{
                         <div className="col-lg-6"><p> <span className="fa fa-map-marker"></span> Location: {location} </p></div>
                         <div className="col-lg-6"><p> <span className="fa fa-envelope"></span> Email: {email} </p> </div>
                         <div className="mt-4 ml-3">
-                            <button type="button" className="btn btn-outline-dark mr-3">
+                            <a href={resume} target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark mr-3">
                                 <span className="fa fa-download"></span> Download CV
-                            </button>
-                            <button type="button" className="btn btn-outline-danger">
+                            </a>
+                            <a href="mailto:dheeraj2406@outlook.com" className="btn btn-outline-danger">
                                 <span className="fa fa-envelope-o"></span> Hire Me
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>

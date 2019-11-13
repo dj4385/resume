@@ -1,5 +1,6 @@
 import React from 'react'
 import '../assets/css/style.css'
+import {Skills} from './Skills'
 import dheeraj from '../assets/images/dheerajImg.jpg'
 
 export const Home = ()=>{
@@ -13,12 +14,13 @@ export const Home = ()=>{
                         <p className="subHeading">He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
                         <div className="row">
                             <div className="col-lg-12">
-                                <button type="button" className="btn btn-primary mr-3">
+                                <a href={Skills} className="btn btn-primary mr-3 text-white">
                                     <span className="fa fa-eye"></span> View Skills 
-                                </button>
-                                <button className="btn btn-danger">
+                                </a>
+                                {/* need to change in button */}
+                                <a href="mailto:dheeraj2406@outlook.com" className="btn btn-danger">
                                     <span className="fa fa-envelope-o"></span> Hire Me
-                                </button>
+                                </a>
                             </div>
                         </div>
                    </div>
