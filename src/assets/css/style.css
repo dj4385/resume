@@ -118,6 +118,37 @@
 
 /* recent projects */
 
+.projectBg{
+    background: url('../images/projectBg.jpg') no-repeat center fixed;
+}
+.cardText {
+    align-items: center;
+    text-align: center;
+}
+.text{
+    display: none;
+    position: absolute;
+    bottom: 50px;
+}
+.imgText{
+    opacity: 1;
+}
+.imgText:hover {
+    opacity: 0.3;
+}
+.imgText:hover + .text:nth-child(1){
+    display: inline-block;
+}
+.imgText:hover + .text:nth-child(2){
+    display: inline-block;
+}
+.imgText:hover + .text:nth-child(3){
+    display: inline-block;
+}
+.text:hover{
+    display: inline-block;
+}
+
 
 
 /* contact component */
