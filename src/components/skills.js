@@ -8,7 +8,7 @@ import js from '../assets/images/js.png'
 import bs4 from '../assets/images/bootstrap.jpg'
 import html from '../assets/images/html1.png'
 import css from '../assets/images/css.png'
-
+import react from '../assets/images/react.png'
 
 export const Skills = ()=>{
     return (
@@ -34,7 +34,7 @@ export const Skills = ()=>{
                             <div className="card boxShadow p-3">
                                 <div className="row">
                                     <div className="col-lg-2">
-                                        <img src={angular} alt="" className="img-fluid skillIcon" />
+                                        <img src={react} alt="" className="img-fluid skillIcon" />
                                     </div>
                                     <div className="col-lg-10">
                                         <p ><b>Reactjs </b> </p>
