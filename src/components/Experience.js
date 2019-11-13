@@ -3,7 +3,7 @@ import '../assets/css/style.css'
 
 export const Experience = ()=>{
     return (
-        <div className="container-fluid expBg p-5">
+        <div className="container-fluid expBg p-5" id="experience">
             <h1 className="abtMe text-white">Experience</h1>
             <div className="row">
                 <div className="col-lg-6 mt-4 pt-5 pl-5 pb-5">

@@ -12,7 +12,7 @@ import react from '../assets/images/react.png'
 
 export const Skills = ()=>{
     return (
-        <div className="container-fluid skillBg p-5">
+        <div className="container-fluid skillBg p-5" id="skill">
             <h1 className="text-white abtMe">Skills</h1>
             <div className="row">
                 <div className="col-lg-12 mt-4 pt-4 pl-5 pr-5">

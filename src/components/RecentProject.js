@@ -6,7 +6,7 @@ import project3 from '../assets/images/project3.png'
 
 export const RecentProject = ()=>{
     return(
-        <div className="container-fluid projectBg p-5">
+        <div className="container-fluid projectBg p-5" id="project">
             <h1 className="abtMe">Recent Projects</h1>
             <div className="row">
                 <div className="col-lg-12 m-4 p-5 ">

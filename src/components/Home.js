@@ -5,7 +5,7 @@ import dheeraj from '../assets/images/dheerajImg.jpg'
 
 export const Home = ()=>{
     return (
-        <div className="container-fluid p-5 bgImg">
+        <div className="container-fluid p-5 bgImg" id="home">
             <div className="row pt-5 pb-5">
                 <div className="col-lg-12 p-5 text-center">
                    <div className=" p-5">

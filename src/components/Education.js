@@ -3,7 +3,7 @@ import '../assets/css/style.css'
 
 export const Education = ()=>{
     return (
-        <div className="container-fluid eduBgImg p-5">
+        <div className="container-fluid eduBgImg p-5" id="education">
             <h1 className="abtMe">Education Qualification</h1>
             <div className="row">
                 <div className="col-lg-12 mt-4 pt-3 pl-5 pr-5 pb-5 ">

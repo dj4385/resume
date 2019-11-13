@@ -10,7 +10,7 @@ export const About = ()=>{
         email = "dheeraj2406@outlook.com"
 
     return (
-        <div className="container-fluid p-5 Abtbg">
+        <div className="container-fluid p-5 Abtbg" id="about">
             <div className="row">
                 <div className="col-lg-12 text-left">
                     <h1 className="text-white abtMe">About Me</h1>

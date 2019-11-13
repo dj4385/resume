@@ -4,7 +4,7 @@ import '../assets/css/style.css'
 export const Contact = ()=>{
     return(
 
-        <div className="container-fluid p-5 contactBg">
+        <div className="container-fluid p-5 contactBg" id="contact">
             <h1 className="abtMe text-white">My Contact Details</h1>
             <div className="row">
                 <div className="col-lg-12 mt-3 pl-5 pr-5 pb-5">
