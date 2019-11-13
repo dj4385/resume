@@ -13,10 +13,10 @@ export const About = ()=>{
         <div className="container-fluid p-5 Abtbg">
             <div className="row">
                 <div className="col-lg-12 text-left">
-                    <h1 className="abtMe">About Me</h1>
+                    <h1 className="text-white abtMe">About Me</h1>
                 </div>
             </div>
-            <div className="row p-5 mr-5 ml-5 mt-5">
+            <div className="row abtTextBg p-5 mr-5 ml-5 mt-5">
                 <div className="col-lg-4">
                     <img src={dheeraj} alt="" className="img-fluid abtImg"></img>
                 </div>
@@ -29,10 +29,10 @@ export const About = ()=>{
                         <div className="col-lg-6"><p> <span className="fa fa-map-marker"></span> Location: {location} </p></div>
                         <div className="col-lg-6"><p> <span className="fa fa-envelope"></span> Email: {email} </p> </div>
                         <div className="mt-4 ml-3">
-                            <a href={resume} target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark mr-3">
+                            <a href={resume} target="_blank" rel="noopener noreferrer" className="btn btn-dark mr-3">
                                 <span className="fa fa-download"></span> Download CV
                             </a>
-                            <a href="mailto:dheeraj2406@outlook.com" className="btn btn-outline-danger">
+                            <a href="mailto:dheeraj2406@outlook.com" className="btn btn-danger">
                                 <span className="fa fa-envelope-o"></span> Hire Me
                             </a>
                         </div>

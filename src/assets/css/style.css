@@ -1,6 +1,9 @@
 *{
     font-family: 'Ubuntu', sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 /* Home component css */
 
@@ -15,12 +18,11 @@
 }
 .name{
     font-size: 4.0 rem;
-    color: black;
+    color: white;
     font-weight: 700;
 }
 .subHeading{
-    background: #00000085;
-    padding: 10px;
+    padding: 18px;
     color: white;
     font-size: 20px;
 }
@@ -32,7 +34,13 @@
 /* About component css */
 
 .Abtbg{
-    background: #ee9ca7;
+    background: url('../images/abt.jpg') no-repeat center fixed;
+}
+
+.abtTextBg{
+    background: tomato;
+    color: white;
+    border-radius: 10px;
 }
 
 .abtMe:after{
@@ -102,7 +110,7 @@
     box-shadow: 5px 6px #000000;
 }
 .skillBg{
-    background: url('../images/skillImg.jpg') no-repeat center;
+    background: url('../images/skillImg.jpg') no-repeat center fixed
 }
 
 /* experience component  */
