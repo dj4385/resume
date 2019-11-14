@@ -1,10 +1,13 @@
 import React from 'react'
+import dheerajImg from '../assets/images/dheeraj.png'
 
 export const Header = ()=>{
     return (
         <div>
             <nav className="navbar navbar-expand-md fixed-top bg-dark navbar-dark">
-                <a className="navbar-brand" href="#home">Web Developer</a>
+                <a className="navbar-brand" href="#home">
+                    <img src={dheerajImg} className="img-fluid rounded imgLogo" alt=""/>
+                </a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span className="navbar-toggler-icon"></span>
                 </button>

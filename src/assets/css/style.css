@@ -5,6 +5,11 @@ html {
     scroll-behavior: smooth;
 }
 
+/* header */
+.imgLogo{
+    width: 50px;
+}
+
 /* Home component css */
 
 .bgImg{
