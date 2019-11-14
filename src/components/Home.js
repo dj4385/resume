@@ -17,7 +17,7 @@ export const Home = ()=>{
                                     <span className="fa fa-eye"></span> View Skills 
                                 </a>
                                 {/* need to change in button */}
-                                <a href="mailto:dheeraj2406@outlook.com" className="btn btn-danger">
+                                <a href="mailto:dheeraj2406@outlook.com" className="btn mb-2 btn-danger">
                                     <span className="fa fa-envelope-o"></span> Hire Me
                                 </a>
                             </div>

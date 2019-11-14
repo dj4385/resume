@@ -4,7 +4,7 @@ import dheerajImg from '../assets/images/dheeraj.png'
 export const Header = ()=>{
     return (
         <div>
-            <nav className="navbar navbar-expand-md fixed-top bg-dark navbar-dark">
+            <nav className="navbar navbar-expand-md fixed-top bg-primary navbar-dark">
                 <a className="navbar-brand" href="#home">
                     <img src={dheerajImg} className="img-fluid rounded imgLogo" alt=""/>
                 </a>
