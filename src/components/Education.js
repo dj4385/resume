@@ -6,10 +6,10 @@ export const Education = ()=>{
         <div className="container-fluid eduBgImg p-5" id="education">
             <h1 className="abtMe">Education Qualification</h1>
             <div className="row">
-                <div className="col-lg-12 mt-4 pt-3 pl-5 pr-5 pb-5 ">
+                <div className="col-lg-12 mt-4 pt-3 pl-2 pr-2 pb-5 ">
                     <div className="row">
-                        <div className="col-lg-3">
-                            <div className="card cardShadow">
+                        <div className="col-lg-3 col-md-6">
+                            <div className="card mb-3 cardShadow">
                                 <div className="card-header">
                                     <b>Post Graduation</b>
                                 </div>
@@ -21,8 +21,8 @@ export const Education = ()=>{
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3">
-                            <div className="card cardShadow">
+                        <div className="col-lg-3 col-md-6">
+                            <div className="card mb-3 cardShadow">
                                 <div className="card-header">
                                     <b>Graduation</b>
                                 </div>
@@ -34,8 +34,8 @@ export const Education = ()=>{
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3">
-                            <div className="card cardShadow">
+                        <div className="col-lg-3 col-md-6">
+                            <div className="card mb-3 cardShadow">
                                 <div className="card-header">
                                     <b>Senior Secondary Schooling</b>
                                 </div>
@@ -47,8 +47,8 @@ export const Education = ()=>{
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3">
-                            <div className="card cardShadow">
+                        <div className="col-lg-3 col-md-6">
+                            <div className="card mb-3 cardShadow">
                                 <div className="card-header">
                                     <b>Schooling</b>
                                 </div>
