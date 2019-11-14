@@ -22,14 +22,14 @@ export const About = ()=>{
                 </div>
                 <div className="col-lg-8 p-2">
                     <h3>Hello,</h3>
-                    <p>I am {name}, web developer from {location}. I have rich experience in the web development design and building and customization, also I am good at Angular, Reactjs, Nodejs, Express, and MongoDB. I primarily use JavaScript Frameworks like Nodejs, Express, MongoDB, Angular 2+ and Reactjs, but picking up a new framework or language isn't a problem. I have extensive programming experience and I'm comfortable developing on frontend and backend.</p>
+                    <p className="text-justify">I am {name}, web developer from {location}. I have rich experience in the web development design and building and customization, also I am good at Angular, Reactjs, Nodejs, Express, and MongoDB. I primarily use JavaScript Frameworks like Nodejs, Express, MongoDB, Angular 2+ and Reactjs, but picking up a new framework or language isn't a problem. I have extensive programming experience and I'm comfortable developing on frontend and backend.</p>
                     <div className="row">
                         <div className="col-lg-6"><p> <span className="fa fa-user-circle-o"></span>  Name: {name}</p></div>
                         <div className="col-lg-6"><p> <span className="fa fa-calendar"></span> DOB: {dob}</p> </div>
                         <div className="col-lg-6"><p> <span className="fa fa-map-marker"></span> Location: {location} </p></div>
                         <div className="col-lg-6"><p> <span className="fa fa-envelope"></span> Email: {email} </p> </div>
                         <div className="mt-4 ml-3">
-                            <a href={resume} target="_blank" rel="noopener noreferrer" className="btn btn-dark mr-3">
+                            <a href={resume} target="_blank" rel="noopener noreferrer" className="btn btn-dark mb-2 mr-3">
                                 <span className="fa fa-download"></span> Download CV
                             </a>
                             <a href="mailto:dheeraj2406@outlook.com" className="btn btn-danger">
