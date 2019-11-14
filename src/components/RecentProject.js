@@ -9,10 +9,10 @@ export const RecentProject = ()=>{
         <div className="container-fluid projectBg p-5" id="project">
             <h1 className="abtMe">Recent Projects</h1>
             <div className="row">
-                <div className="col-lg-12 m-4 p-5 ">
+                <div className="col-lg-12 pt-5 pl-3 pr-3">
                     <div className="row">
-                        <div className="col-lg-3">
-                            <div className="card cardText p-3">
+                        <div className="col-lg-3  col-md-4">
+                            <div className="card cardText mb-4 p-3">
                                 <img src={project1} className="img-fluid imgText" alt="" />
                                 <div className="text text-center">
                                     <h4>My Health Scroll</h4>
@@ -20,8 +20,8 @@ export const RecentProject = ()=>{
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3">
-                            <div className="card cardText p-3">
+                        <div className="col-lg-3 col-md-4">
+                            <div className="card cardText mb-4 p-3">
                                 <img src={project2} className="img-fluid imgText" alt="" />
                                 <div className="text text-center">
                                     <h4>Niscaya Solutions</h4>
@@ -29,8 +29,8 @@ export const RecentProject = ()=>{
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3">
-                            <div className="card cardText p-3">
+                        <div className="col-lg-3  col-md-4">
+                            <div className="card cardText mb-4 p-3">
                                 <img src={project3} className="img-fluid imgText" alt="" />
                                 <div className="text">
                                     <h4 className="text-center">Gym Management</h4>
