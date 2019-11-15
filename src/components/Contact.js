@@ -19,7 +19,7 @@ export const Contact = ()=>{
                                     <ul className="socialLink">
                                         <li><a href="https://www.facebook.com/dj4385" target="_blank" rel="noopener noreferrer"><span className="fa fa-2x fa-facebook-official"></span></a></li>
                                         <li><a href="https://www.linkedin.com/in/dheeraj-sharma-3b5262141/" rel="noopener noreferrer" target="_blank"><span className="fa fa-2x fa-linkedin-square"></span></a></li>
-                                        <li><a href="https://github.com/dj4385" rel="noopener noreferrer" target="_blank" className="text-dark"><span className="fa fa-2x fa-github"></span></a></li>
+                                        <li><a href="https://github.com/dj4385" rel="noopener noreferrer" target="_blank" className="text-white"><span className="fa fa-2x fa-github"></span></a></li>
                                     </ul>
                                 </div>
                             </div>
