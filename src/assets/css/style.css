@@ -115,7 +115,7 @@ html {
     box-shadow: 5px 6px #000000;
 }
 .skillBg{
-    background: url('../images/skillImg.jpg') no-repeat center fixed
+    background: url('../images/skillImg.jpg') no-repeat center fixed;
 }
 
 /* experience component  */
