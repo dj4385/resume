@@ -115,7 +115,9 @@ html {
     box-shadow: 5px 6px #000000;
 }
 .skillBg{
-    background: url('../images/skillImg.jpg') no-repeat center fixed;
+    /* background: url('../images/skillImg.jpg') no-repeat center; */
+    background: linear-gradient(to left, #24243e, #302b63, #0f0c29); 
+
 }
 
 /* experience component  */
@@ -177,7 +179,7 @@ html {
 .socialLink>li{
     margin: 5px;
     padding: 2px;
-    opacity: 0.3;
+    opacity: 0.6;
 }
 .socialLink>li:hover{
     opacity: 1;

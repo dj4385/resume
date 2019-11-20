@@ -38,7 +38,7 @@ export const Skills = ()=>{
                                         <img src={react} alt="" className="img-fluid skillIcon" />
                                     </div>
                                     <div className="col-lg-10">
-                                        <p ><b>Reactjs </b> </p>
+                                        <p ><b>Reactjs v4.0 </b> </p>
                                         <span className="progress-bar bg-primary progress-bar-striped reactprogressbar">Reactjs</span>
                                     </div>
                                 </div>
@@ -58,7 +58,7 @@ export const Skills = ()=>{
                                         <img src={node} alt="" className="img-fluid skillIcon" />
                                     </div>
                                     <div className="col-lg-10">
-                                        <p ><b>Nodejs</b></p>
+                                        <p ><b>Nodejs v10</b></p>
                                         <span className="progress-bar bg-dark progress-bar-striped nodeprogressbar">Nodejs</span>
                                     </div>
                                 </div>
@@ -71,7 +71,7 @@ export const Skills = ()=>{
                                         <img src={express} alt="" className="img-fluid skillIcon" />
                                     </div>
                                     <div className="col-lg-10">
-                                        <p ><b>Expressjs </b> </p>
+                                        <p ><b>Express.Js </b> </p>
                                         <span className="progress-bar bg-secondary mt-2 progress-bar-striped expressprogressbar">Express</span>
                                     </div>
                                 </div>
