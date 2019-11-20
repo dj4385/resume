@@ -5,6 +5,7 @@ import express from '../assets/images/express.png'
 import node from '../assets/images/node.png'
 import mongo from '../assets/images/mongo.png'
 import js from '../assets/images/js.png'
+import jQuery from '../assets/images/jQuery.png'
 import bs4 from '../assets/images/bootstrap.jpg'
 import html from '../assets/images/html1.png'
 import css from '../assets/images/css.png'
@@ -119,7 +120,7 @@ export const Skills = ()=>{
                             <div className="card boxShadow mb-4 p-3">
                                 <div className="row">
                                     <div className="col-lg-2">
-                                        <img src={angular} alt="" className="img-fluid skillIcon" />
+                                        <img src={jQuery} alt="" className="img-fluid skillIcon" />
                                     </div>
                                     <div className="col-lg-10">
                                         <p ><b>jQuery</b></p>
