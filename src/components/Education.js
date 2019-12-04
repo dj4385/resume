@@ -43,7 +43,7 @@ export const Education = ()=>{
                                     <p><b> <span className="fa fa-building-o "></span> Board:</b> Central Board of Secondary Education (CBSE)</p>
                                     <p><b> <span className="fa fa-building-o "></span> College:</b> Govt. Boys Senior Secondary School</p>
                                     <p><b> <span className="fa fa-graduation-cap"></span> Class:</b> 12th Commerce</p>
-                                    <p><b> <span className="fa fa-calendar"></span> Year:</b> 2011-2013</p>
+                                    <p><b> <span className="fa fa-calendar"></span> Year:</b> 2011-2013</p><br></br>
                                 </div>
                             </div>
                         </div>
@@ -56,7 +56,7 @@ export const Education = ()=>{
                                     <p><b> <span className="fa fa-building-o "></span> Board:</b> Central Board of Secondary Education (CBSE)</p>
                                     <p><b> <span className="fa fa-building-o "></span> College:</b> S.D. Saraswati Bal Mandir</p>
                                     <p><b> <span className="fa fa-graduation-cap"></span> Class:</b> 10th </p>
-                                    <p><b> <span className="fa fa-calendar"></span> Year:</b> 2010-2011</p>
+                                    <p><b> <span className="fa fa-calendar"></span> Year:</b> 2010-2011</p><br></br><br></br>
                                 </div>
                             </div>
                         </div>
