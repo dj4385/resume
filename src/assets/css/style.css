@@ -64,6 +64,7 @@ html {
 .abtImg{
     height: 380px;
     width: 400px;
+    object-fit: cover;
 }
 
 /* Education component  */
