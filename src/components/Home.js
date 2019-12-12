@@ -13,7 +13,7 @@ export const Home = ()=>{
                         <p className="subHeading">I am a web developer and programmer living in Delhi, India. I make web applications, usually with Node.js, Express, MongoDB and (Angular 7 and Reactjs)</p>
                         <div className="row">
                             <div className="col-lg-12">
-                                <a href={Skills} className="btn btn-primary mr-3 mb-2 text-white">
+                                <a href="#skill" className="btn btn-primary mr-3 mb-2 text-white">
                                     <span className="fa fa-eye"></span> View Skills 
                                 </a>
                                 {/* need to change in button */}
