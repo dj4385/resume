@@ -10,14 +10,14 @@ export const Experience = ()=>{
                     <div className="card ExpcardBg p-3">
                         <p><span className="fa fa-calendar"></span>  June, 2019 - Present</p>
                         <p className="h3">Excelsior Softwares Pvt. Ltd.</p>
-                        <p className="small">Bref the job</p>
+                        <p className="small">Designation: .Net Developer</p>
                     </div>
                 </div>
                 <div className="col-lg-6 mt-4 pt-5 pb-2 pr-2">
                     <div className="card ExpcardBg p-3">
                         <p><span className="fa fa-calendar"></span>  Nov, 2018 - Apr, 2019</p>
                         <p className="h3">Kranti tech Services Pvt. Ltd.</p>
-                        <p className="small">Bref the job</p>
+                        <p className="small">Designation: Angular Developer</p>
                     </div>
                 </div>
             </div>
