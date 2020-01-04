@@ -1,6 +1,6 @@
 import React from 'react'
 import '../assets/css/style.css'
-import dheeraj from '../assets/images/dheeraj.png'
+import dheeraj from '../assets/images/dheeraj.jpg'
 import resume from '../assets/docs/Dheeraj_Resume.pdf'
 
 export const About = ()=>{
